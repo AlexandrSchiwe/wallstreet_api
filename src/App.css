@@ -1,38 +1,50 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+/* font-family: 'Joan', serif; */
+
+/* ==================
+      General
+================== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* ==================
+      Styling
+================== */
+
+.article {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article h3 {
+  font-size: 2rem;
+}
+
+.article p {
+  font-size: 1.7rem;
+}
+
+.article a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: maroon;
 }
